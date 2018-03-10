@@ -25,6 +25,16 @@ class auxRegexLib
         return result;
     }
 
+    // Returns whether or not the expr in 'expr' is in string 'inputStr'
+    public static bool hasMatch(string inputStr, string expr)
+    {
+        MatchCollection mc = Regex.Matches(inputStr, expr);
+
+        foreach (Match m in mc) return true;
+
+        return false;
+    }
+
     // Finds a substring that matches 'expr' in 'str1', then moves it to 'str2'. The substring that matched the
     // expression 'expr' is removed from 'str1'
     public static bool transferMatch(ref string str1, ref string str2, string expr)

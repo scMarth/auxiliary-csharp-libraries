@@ -8,3 +8,13 @@ Usage:
 2.) When you open a Visual Studio C# console application, select `Project > Add Exhisting Item` and select which file you want to use
 
 (more instructions will be added later)
+
+#### auxAccDbLib.cs
+
+#### auxFileWriterLib.cs
+
+#### auxRegexLib.cs
+
+#### frequencyHash.cs
+
+

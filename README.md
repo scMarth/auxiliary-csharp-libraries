@@ -17,4 +17,22 @@ Usage:
 
 #### frequencyHash.cs
 
+```
+using System.Collections;
 
+...
+
+// Declare a hash table
+Hashtable hash = new Hashtable();
+
+string key;
+string value;
+
+...
+// Add to the frequency hash
+frequencyHash.addValueToHash(hash, key, value);
+
+
+// Dump the contents of the hash table
+frequencyHash.dumpHashTable(hash, outfile2);
+```

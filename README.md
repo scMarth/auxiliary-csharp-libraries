@@ -6,3 +6,5 @@ Usage:
 1.) Clone into the desired directory
 
 2.) When you open a Visual Studio C# console application, select `Project > Add Exhisting Item` and select which file you want to use
+
+(more instructions will be added later)
